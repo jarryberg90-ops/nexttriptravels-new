@@ -39,15 +39,6 @@ function HotelsPage() {
     });
   }, [search, maxPrice, minRating, category]);
 
-  const handleHotelClick = (hotel: Hotel) => {
-    if (!checkIn || !checkOut) {
-      alert("Please select check-in and check-out dates.");
-      return;
-    }
-
-    navigate(`/hotels/${hotel.slug}?checkIn=${checkIn}&checkOut=${checkOut}`);
-  };
-
   const handleResetFilters = () => {
     setSearch("");
     setCheckIn("");
