@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 import HotelCard from "../../components/hotels/HotelCard";
 import HotelCardSkeleton from "../../components/hotels/HotelCardSkeleton";
