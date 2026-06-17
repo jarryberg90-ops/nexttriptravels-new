@@ -282,7 +282,6 @@ function HotelsPage() {
                   <HotelCard
                     key={hotel.id}
                     hotel={hotel}
-                    onViewDetails={handleHotelClick}
                   />
                 ))
               ) : (
