@@ -9,7 +9,6 @@ import HotelDetailsModal from "../../components/hotels/HotelDetailsModal";
 import { hotels, type Hotel } from "../../data/hotels/hotels";
 
 function HotelsPage() {
-  const navigate = useNavigate();
 
   const [search, setSearch] = useState("");
   const [checkIn, setCheckIn] = useState("");
