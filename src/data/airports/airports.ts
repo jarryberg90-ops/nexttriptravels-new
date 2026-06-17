@@ -1,0 +1,92 @@
+export const airports = [
+  {
+    code: "JFK",
+    city: "New York",
+    name: "John F. Kennedy International Airport",
+    state: "New York",
+  },
+  {
+    code: "LGA",
+    city: "New York",
+    name: "LaGuardia Airport",
+    state: "New York",
+  },
+  {
+    code: "EWR",
+    city: "Newark",
+    name: "Newark Liberty International Airport",
+    state: "New Jersey",
+  },
+  {
+    code: "LAX",
+    city: "Los Angeles",
+    name: "Los Angeles International Airport",
+    state: "California",
+  },
+  {
+    code: "SFO",
+    city: "San Francisco",
+    name: "San Francisco International Airport",
+    state: "California",
+  },
+  {
+    code: "LAS",
+    city: "Las Vegas",
+    name: "Harry Reid International Airport",
+    state: "Nevada",
+  },
+  {
+    code: "MIA",
+    city: "Miami",
+    name: "Miami International Airport",
+    state: "Florida",
+  },
+  {
+    code: "ORD",
+    city: "Chicago",
+    name: "O'Hare International Airport",
+    state: "Illinois",
+  },
+  {
+    code: "ATL",
+    city: "Atlanta",
+    name: "Hartsfield-Jackson Atlanta International Airport",
+    state: "Georgia",
+  },
+  {
+    code: "SEA",
+    city: "Seattle",
+    name: "Seattle-Tacoma International Airport",
+    state: "Washington",
+  },
+  {
+    code: "BOS",
+    city: "Boston",
+    name: "Logan International Airport",
+    state: "Massachusetts",
+  },
+  {
+    code: "DEN",
+    city: "Denver",
+    name: "Denver International Airport",
+    state: "Colorado",
+  },
+  {
+    code: "DFW",
+    city: "Dallas",
+    name: "Dallas/Fort Worth International Airport",
+    state: "Texas",
+  },
+  {
+    code: "PHX",
+    city: "Phoenix",
+    name: "Phoenix Sky Harbor International Airport",
+    state: "Arizona",
+  },
+  {
+    code: "IAH",
+    city: "Houston",
+    name: "George Bush Intercontinental Airport",
+    state: "Texas",
+  },
+];
